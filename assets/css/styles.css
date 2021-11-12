@@ -678,7 +678,7 @@ section{
 }
 
 
-@media screen and (max-width: 568px){
+@media (min-width: 351px) and (max-width: 768px){
 
 	.menu-link{
 		display: none;
@@ -857,6 +857,10 @@ section{
 		font-size: 12px;
 	}
 }
+
+
+
+
 
 
 
