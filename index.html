@@ -234,6 +234,10 @@
             var x = document.getElementById("menu2");
             x.classList.toggle("show-menu");
         }
+
+        document.getElementById("menu2").addEventListener("click", function() {
+            this.classList.remove("show-menu");
+        });
     </script>
     <script src="assets/js/main.js"></script>
 </body>

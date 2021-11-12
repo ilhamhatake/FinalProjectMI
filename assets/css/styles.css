@@ -545,7 +545,7 @@ section{
 	}
 
 	.about-content{
-		padding: 104px 6px;
+		padding: 104px 6px 120px 6px;
 	}
 
 	.about-content p{
@@ -590,13 +590,273 @@ section{
 	.exp p{
 		font-size: 12px;
 	}
+	
+	.portofolio-content{
+		padding: 104px 6px;
+	}
 
+	.portofolio-content h1{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
 
+	.portofolio-content p{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 
+	.recent-portofolio{
+		display: block;
+		padding-right: 8px;
+		padding-left: 8px;
+		gap: 6px;
+	}
+
+	.recent-pic{
+		height: 160px;
+	}
+
+	.recent{
+		margin-bottom: 24px;
+	}
+
+	.recent-desc{
+		padding: 4px 12px 28px 12px;
+	}
+
+	.recent-desc p{
+		padding: 0;
+	}
+
+	.blog-content{
+		padding: 104px 6px;
+	}
+
+	.blog-content h1{
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+
+	.recent-blog{
+		display: block;
+		padding: 0 8px;
+	}
+
+	.team-content{
+		padding: 104px 6px;
+	}
+
+	.team-content h1{
+		padding-left: 28px;
+		padding-right: 28px;
+		margin-bottom: 48px;
+	}
+
+	.my-team{
+		display: block;
+		padding: 0 8px;
+	}
+
+	.team-pic{
+		margin: 0 auto;
+	}
+
+	.team-desc{
+		margin-bottom: 24px;
+	}
+
+	.contact-content{
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+
+	.footer h3{
+		padding-right: 56px;
+		padding-left: 56px;
+		font-size: 12px;
+	}
 }
 
 
+@media screen and (max-width: 568px){
 
+	.menu-link{
+		display: none;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+
+	.home-content{
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 96px 6px 120px 6px;
+	}
+
+	.home-pic img{
+		width: 280px;
+		margin-bottom: 40px;
+	}
+
+	.home-data{
+		display: block;
+		text-align: center;
+	}
+
+	.home-data h1{
+		font-size: 40px;
+	}
+
+	.home-data h3{
+		font-size: 20px;
+	}
+
+	.home-data p{
+		font-size: 14px;
+	}
+
+	.home-data a{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.home .scroll-down{
+		display: none;
+	}
+
+	.about-content{
+		padding: 104px 46px 120px 46px;
+	}
+
+	.about-content p{
+		font-size: 14px;
+		padding: 0 8px;
+	}
+
+	.about h1{
+		margin-bottom: 40px;
+	}
+
+	.about-pic{
+		margin-left: auto;
+		margin-right: auto;
+		width: 280px;
+		height: 200px;
+		margin-bottom: 40px;
+	}
+
+	.about-pic img{
+		width: 380px;
+	}
+
+	.about-me{
+		display: block;
+		padding: 0;
+		align-items: center;
+		text-align: center;
+	}
+
+	.about-exp{
+		padding-left: 48px;
+		align-items: center;
+		grid-template-columns: 35% 30% 35%;
+	}
+
+	.exp h1{
+		font-size: 28px;
+		margin-bottom: 12px;
+	}
+
+	.exp p{
+		font-size: 12px;
+	}
+	
+	.portofolio-content{
+		padding: 104px 46px;
+	}
+
+	.portofolio-content h1{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.portofolio-content p{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.recent-portofolio{
+		display: block;
+		padding-right: 8px;
+		padding-left: 8px;
+		gap: 6px;
+	}
+
+	.recent-pic{
+		height: 160px;
+	}
+
+	.recent{
+		margin-bottom: 24px;
+	}
+
+	.recent-desc{
+		padding: 4px 12px 28px 12px;
+	}
+
+	.recent-desc p{
+		padding: 0;
+	}
+
+	.blog-content{
+		padding: 104px 46px;
+	}
+
+	.blog-content h1{
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+
+	.recent-blog{
+		display: block;
+		padding: 0 8px;
+	}
+
+	.team-content{
+		padding: 104px 6px;
+	}
+
+	.team-content h1{
+		padding-left: 28px;
+		padding-right: 28px;
+		margin-bottom: 48px;
+	}
+
+	.my-team{
+		display: block;
+		padding: 0 8px;
+	}
+
+	.team-pic{
+		margin: 0 auto;
+	}
+
+	.team-desc{
+		margin-bottom: 24px;
+	}
+
+	.contact-content{
+		padding-left: 54px;
+		padding-right: 54px;
+	}
+
+	.footer h3{
+		padding-right: 56px;
+		padding-left: 56px;
+		font-size: 12px;
+	}
+}
 
 
 
